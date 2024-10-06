@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Cambia a una fuente adecuada, como Roboto o Lora */
+  background-color: #f8f9fa; /* Fondo claro */
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif; /* Una fuente con estilo clásico */
+  color: #b22222; /* Un tono rojo que evoque la bandera italiana */
+}
+
+/* Colores de la bandera italiana */
+.header, .footer {
+  background-color: #006400; /* Verde italiano para el header y footer */
+  color: white;
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: #b22222; /* Rojo para el footer */
+  color: white;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .navbar-brand {
+  color: #006400; /* Verde para el logo */
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #b22222; /* Rojo para los enlaces */
+}
+
+.btn-primary {
+  background-color: #b22222; /* Rojo en botones principales */
+  border-color: #b22222;
+}
+
+.btn-primary:hover {
+  background-color: #006400; /* Verde en hover */
+  border-color: #006400;
+}
+
+.card {
+  border: 1px solid #b22222; /* Borde rojo en las tarjetas */
+}
+
+.card-body {
+  background-color: #fff;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "🍕 "; /* Icono de pizza como marcador en la lista de ingredientes */
+}
+
+.navbar-nav.ml-auto {
+  margin-left: auto; /* Alinea a la derecha utilizando margen automático */
+}
+
+.navbar-nav .nav-link {
+  color: #b22222; /* Color para el enlace del carrito */
+}
+
